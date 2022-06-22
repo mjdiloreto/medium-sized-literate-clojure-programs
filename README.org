@@ -20,10 +20,11 @@ That's the purpose of this list, to aggregate those types of programs to serve a
 
 ** The List
 
-| Project                                      | Author         | Description                                                                                          |
-|----------------------------------------------+----------------+------------------------------------------------------------------------------------------------------|
-| [[https://mjdiloreto.github.io/posts/literate/][Mondegreen Generator]]                         | [[https://github.com/mjdiloreto][mjdiloreto]]     | A pure Clojure implementation of a linguistic game                                                   |
-| [[https://www.alexandercarls.de/markdoc-nbb-clojure/][Create a blog with Clojure, nbb, and MarkDoc]] | [[https://github.com/alexandercarls][alexandercarls]] | Static blog site generated from markdown with code syntax highlighting, comments, RSS feed, and more |
+| Project                                                | Author         | Description                                                                                          |
+|--------------------------------------------------------+----------------+------------------------------------------------------------------------------------------------------|
+| [[https://mjdiloreto.github.io/posts/literate/][Mondegreen Generator]]                                   | [[https://github.com/mjdiloreto][mjdiloreto]]     | A pure Clojure implementation of a linguistic game                                                   |
+| [[https://www.alexandercarls.de/markdoc-nbb-clojure/][Create a blog with Clojure, nbb, and MarkDoc]]           | [[https://github.com/alexandercarls][alexandercarls]] | Static blog site generated from markdown with code syntax highlighting, comments, RSS feed, and more |
+| [[https://www.arthurbrrs.me/prerendering-react-clojurescript-land.html][React prerendering experiments in Clojure(script) land]] | [[https://github.com/arthurbarroso][arthurbarroso]]  | Prerendering React in Clojurescript using graal.js and nbb                                           |
 
 ** For Contributors
 Acceptable projects *MUST*:
