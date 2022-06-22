@@ -1,0 +1,42 @@
+#+HUGO_BASE_DIR: ~/public_html
+#+HUGO_SECTION: posts
+#+DATE: [2022-06-21 Tue 20:50]
+#+TITLE: Medium-sized Literate Clojure Programs
+
+Are you a "not-quite-novice, but not-quite-proficient" Clojure programmer?
+If so, you might have noticed the relative dearth of good /medium-sized/ projects in the community.
+You've gone through tutorials and watched videos, maybe you've even created a few small projects using Clojure, but you feel like you're still a Java, or Javascript, or Ruby, or Python developer, and you're using Clojure in a comfortable and familiar way.
+You don't want this!
+You want to program Clojure like a /Clojure/ developer, and one way to achieve this goal is to read and play around with the work of other Clojure programmers.
+
+What you need is medium-sized projects, a big step up from tutorial code, but not so complex to waste a ton of mental effort getting familiar with a large code base, such as most open-source projects.
+
+You need these programs to be written in a *Literate* style, starting from scratch (a bare repl), which you can read (and evaluate if you so choose).
+You should not be /required/ to checkout any code, or navigate any directory structure to understand the program, it should be presented more conveniently as a single document.
+
+It might just be that these projects are actually out there, just difficult to discover.
+
+That's the purpose of this list, to aggregate those types of programs to serve as a stepping-stone for soon-to-be-proficient Clojure programmers.
+
+** The List
+
+| Project                                      | Author         | Description                                                                                          |
+|----------------------------------------------+----------------+------------------------------------------------------------------------------------------------------|
+| [[https://mjdiloreto.github.io/posts/literate/][Mondegreen Generator]]                         | [[https://github.com/mjdiloreto][mjdiloreto]]     | A pure Clojure implementation of a linguistic game                                                   |
+| [[https://www.alexandercarls.de/markdoc-nbb-clojure/][Create a blog with Clojure, nbb, and MarkDoc]] | [[https://github.com/alexandercarls][alexandercarls]] | Static blog site generated from markdown with code syntax highlighting, comments, RSS feed, and more |
+
+** For Contributors
+Acceptable projects *MUST*:
+1. Be written in a literate style, distributed as a blog post, html page, interactive notebook, org-mode file, or equivalent, not just a github repo
+2. Be a useful "real-world" program - not just a collection of functions or a library
+3. Be /mediumish/. Use your best judgment. A straight read-through of the program and prose together should take the average reader more than a couple minutes and less than a couple hours
+
+
+To contribute a project, either:
+A. open an issue with the following information:
+   - REQUIRED - Project title
+   - REQUIRED - Link to the program source
+   - REQUIRED - A short (single sentence) description of the program
+   - OPTIONAL - author
+   - OPTIONAL - link to the author's page
+B. open a pull request editing [[The List]] with the same information
