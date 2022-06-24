@@ -2,6 +2,7 @@
 #+HUGO_SECTION: posts
 #+DATE: [2022-06-21 Tue 20:50]
 #+TITLE: Medium-sized Literate Clojure Programs
+#+TODO: scrape clojure deref for news https://clojure.org/news and clojurians news-and-articles https://clojurians.slack.com/archives/C8NUSGWG6
 
 Are you a "not-quite-novice, but not-quite-proficient" Clojure programmer?
 If so, you might have noticed the relative dearth of good /medium-sized/ projects in the community.
@@ -25,6 +26,7 @@ That's the purpose of this list, to aggregate those types of programs to serve a
 | [[https://mjdiloreto.github.io/posts/literate/][Mondegreen Generator]]                                   | [[https://github.com/mjdiloreto][mjdiloreto]]     | A pure Clojure implementation of a linguistic game                                                   |
 | [[https://www.alexandercarls.de/markdoc-nbb-clojure/][Create a blog with Clojure, nbb, and MarkDoc]]           | [[https://github.com/alexandercarls][alexandercarls]] | Static blog site generated from markdown with code syntax highlighting, comments, RSS feed, and more |
 | [[https://www.arthurbrrs.me/prerendering-react-clojurescript-land.html][React prerendering experiments in Clojure(script) land]] | [[https://github.com/arthurbarroso][arthurbarroso]]  | Prerendering React in Clojurescript using graal.js and nbb                                           |
+| [[https://gdeer81.github.io/marginalia/][Marginalia]]                                             | [[https://github.com/gdeer81][gdeer81]]        | Lightweight literate programming for Clojure                                                         |
 
 ** For Contributors
 Acceptable projects *MUST*:
